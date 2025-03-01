@@ -1,3 +1,5 @@
+package Q_02;
+
 
 import javax.swing.*;
 import java.util.*;
@@ -11,11 +13,10 @@ import java.util.*;
                 System.out.print("Enter your first name : ");
                 firstName = Name1.next();
 
-                Scanner Name2;
-                Name2 = new Scanner(System.in);
+
                 String secondName;
                 System.out.print("Enter your second name : ");
-                secondName = Name2.next();
+                secondName = Name1.next();
 
 
                 //System.out.println("Full name is "+ firstName + secondName);

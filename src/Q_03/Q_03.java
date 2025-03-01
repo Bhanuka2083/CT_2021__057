@@ -1,3 +1,5 @@
+package Q_03;
+
 import java.util.Scanner;
 
 public class Q_03 {
@@ -9,20 +11,18 @@ public class Q_03 {
         System.out.print("Enter your first name : ");
         fName = name1.next();
 
-        Scanner name2;
-        name2 = new Scanner(System.in);
+
         String sName;
         System.out.print("Enter your middle name : ");
-        sName = name2.next();
+        sName = name1.next();
 
-        Scanner name3;
-        name3 = new Scanner(System.in);
+
         String lName;
         System.out.print("Enter your surname : ");
-        lName = name3.next();
+        lName = name1.next();
 
 
-        System.out.println("Full name is " + fName + ' ' + (sName.charAt(0)) + '.' + lName);
+        System.out.println(fName + ' ' + (sName.charAt(0)) + '.' + lName);
 
     }
 }

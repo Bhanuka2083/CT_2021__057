@@ -1,3 +1,5 @@
+package Q_07;
+
 
 import java.time.LocalTime;
 import javax.swing.*;
@@ -18,9 +20,6 @@ public class Q_07{
         window.setSize(600 , 400);
         window.setTitle(formated);
         window.setVisible(true);
-
-
-        //System.out.println(formated);
 
     }
 }

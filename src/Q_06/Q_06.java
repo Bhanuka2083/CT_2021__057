@@ -1,29 +1,27 @@
+package Q_06;
+
+
 import javax.swing.*;
 import java.util.*;
 
 public class Q_06{
     public static void main(String[] args){
 
-        Scanner width;
-        width = new Scanner(System.in);
+        Scanner data;
+        data = new Scanner(System.in);
         int W;
         System.out.print("Enter width of frame : ");
-        W = Integer.parseInt(width.next());
+        W = Integer.parseInt(data.next());
 
-        Scanner height;
-        height = new Scanner(System.in);
+
         int H;
         System.out.print("Enter height of frame : ");
-        H = Integer.parseInt(height.next());
+        H = Integer.parseInt(data.next());
 
-        //System.out.println("Width is "+W);
-        //System.out.println("Height is "+H);
 
-        Scanner Title;
-        Title = new Scanner(System.in);
         String title;
         System.out.print("Enter title : ");
-        title = Title.next();
+        title = data.next();
 
 
 
