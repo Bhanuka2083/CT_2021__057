@@ -8,15 +8,15 @@ public class Q_07 {
     public static void main(String[] args) {
 
         Scanner bmi = new Scanner(System.in);
-        double w;
+        int w;
         System.out.print("Enter your weight in Kg : ");
-        w = bmi.nextDouble();
+        w = bmi.nextInt();
 
-        double h;
+        int h;
         System.out.print("Enter your height in cm : ");
-        h = bmi.nextDouble();
+        h = bmi.nextInt();
 
-        double BMI = w / pow((h/100), 2);
+        double BMI = w / (pow(((double) h /100),2));
 
         System.out.println("Your BMI value is " + BMI);
     }
