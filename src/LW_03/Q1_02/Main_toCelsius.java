@@ -5,30 +5,17 @@ import java.util.Scanner;
 public class Main_toCelsius {
     public static void main(String[] args) {
 
-
-
-        Temperature temp;
-
+        Temperature temp2;
 
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter temperature in Celsius: ");
+        System.out.print("Enter temperature in Fahrenheit: ");
 
-        double celsius = scanner.nextDouble();
+        double fahrenheit = scanner.nextDouble();
 
-        temp = new Temperature(celsius);
+        temp2 = new Temperature(fahrenheit);
 
-        //System.out.println(celsius);
+        double celsius = temp2.toCelsius(fahrenheit);
 
-        double fahrenheit = temp.toFahrenheit(celsius);
-
-
-
-        System.out.println("Temperature in Fahrenheit: " + fahrenheit);
-
-
-
+        System.out.print("Temperature in Celsius: "+ celsius);
     }
-
-
-
 }
